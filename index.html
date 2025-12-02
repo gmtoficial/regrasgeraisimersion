@@ -567,17 +567,33 @@
                     <p><strong>20. Ações Pequenas:</strong> (Ex: Assalto a Lojinha, Perseguições) podem ser realizadas por qualquer policial em serviço, sem agendamento prévio.</p>
                 </div>
             `,
-            "policia-regras-engajamento-perseguicao": `
-                <div class="rule-display">
-                    <h2>Regras de Ação e Abordagem</h2>
-                    <p><strong>21. Motivação para Abordagem:</strong> Toda abordagem deve ter uma motivação dentro do Roleplay clara.</p>
-                    <p><strong>22. Revista e Algemas:</strong> A revista e o uso de algemas são obrigatórios após a detenção ou imobilização.</p>
-                    <p><strong>23. Safezones (Zonas Seguras):</strong> É proibida qualquer abordagem ou ação que gere confronto dentro de áreas Safezones (Hospitais, Garagens, etc.).</p>
-                    <p><strong>24. Incursão em Facção (Mandado):</strong> Invasões a bases de facção para operação policial (incluindo pacificação e limpeza de baú) são permitidas somente com mandado judicial autorizado pelo Jurídico.</p>
-                    <p><strong>25. Perseguição para Facção (Flagrante):</strong> A Polícia pode entrar na área da facção apenas para deter o indivíduo que esteja fugindo ativamente de uma perseguição em andamento (Flagrante Delito).</p>
-                    <p><strong>26. Sequestro de Policial (QRR Máximo):</strong> O QRR Máximo (Código 7) deve ser acionado imediatamente, sendo a responsabilidade máxima de resgate atribuída à CAVE (Comando de Ações Violentas Especiais).</p>
-                </div>
-            `,
+"policia-regras-engajamento-perseguicao": `
+    <div class="rule-display">
+        <h2>Regras de Ação e Abordagem</h2>
+        <p><strong>21. Motivação para Abordagem:</strong> Toda abordagem deve ter uma motivação dentro do Roleplay clara.</p>
+        <p><strong>22. Revista e Algemas:</strong> A revista e o uso de algemas são obrigatórios após a detenção ou imobilização.</p>
+        <p><strong>23. Safezones (Zonas Seguras):</strong> É proibida qualquer abordagem ou ação que gere confronto dentro de áreas Safezones (Hospitais, Garagens, etc.).</p>
+        <p><strong>24. Incursão em Facção (Mandado):</strong> Invasões a bases de facção para operação policial (incluindo pacificação e limpeza de baú) são permitidas somente com mandado judicial autorizado pelo Jurídico.</p>
+        
+        <p style="margin-bottom: 5px;"><strong>25. Perseguição para Facção (Flagrante Delito) e Protocolo de Intervenção CAVE:</strong></p>
+        <ol style="margin-top: 0; margin-bottom: 10px; padding-left: 30px;">
+            <li style="margin-bottom: 5px;">
+                <strong>Negociação Obrigatória (Guarnição em Flagrante):</strong> Em caso de perseguição ativa (Flagrante Delito), a guarnição policial em serviço pode adentrar a área da facção apenas para deter o indivíduo em fuga. <strong>Antes da entrada forçada, o policial no comando da perseguição deve tentar negociar com o líder ou membro ativo da facção para que o suspeito seja entregue pacificamente à autoridade.</strong>
+            </li>
+            <li style="margin-bottom: 5px;">
+                <strong>Acionamento CAVE (Opção Tática):</strong> Se a negociação for recusada, ou se a facção impedir ativamente a detenção do suspeito, o policial no comando pode solicitar, via rádio, o acionamento da <strong>CAVE (Comando de Ações Violentas Especiais)</strong> para iniciar uma <strong>Operação Tática de Intervenção</strong>.
+            </li>
+            <li style="margin-bottom: 5px;">
+                <strong>Limite de Tempo para a Operação:</strong> Após a entrada da primeira unidade CAVE na área da facção (início da intervenção), o tempo limite para a operação de captura é de <strong>1 hora (60 minutos da vida real)</strong>.
+            </li>
+            <li style="margin-bottom: 5px;">
+                <strong>Recuo Obrigatório (Se o Tempo Expirar):</strong> Se o indivíduo em Flagrante Delito <strong>não for detido</strong> dentro do prazo de <strong>1 hora (tempo real)</strong>, todas as unidades policiais presentes na operação (incluindo a CAVE) devem <strong>recuar imediatamente</strong> e se retirar da área da facção, encerrando a operação. O suspeito estará livre de prisão por essa ocorrência específica (devido ao esgotamento do tempo limite tático).
+            </li>
+        </ol>
+        
+        <p><strong>26. Sequestro de Policial (QRR Máximo):</strong> O QRR Máximo (Código 7) deve ser acionado imediatamente, sendo a responsabilidade máxima de resgate atribuída à CAVE (Comando de Ações Violentas Especiais).</p>
+    </div>
+`,
             "policia-uso-forca-veiculos": `
                 <div class="rule-display">
                     <h2>Uso da Força e Veículos</h2>
@@ -927,16 +943,22 @@
             /* ------------------------------------------------------------------------------------------------------ */
             /* REGRAS DO ILEGAL (FACÇÕES) - ATUALIZADO DISCIPLINA */
             /* ------------------------------------------------------------------------------------------------------ */
-            "ilegal-faccoes": `
-                <div class="rule-display">
-                    <h2>Facções, Hierarquia e Disciplina</h2>
-                    <p><strong>1. Regras Gerais:</strong> As facções devem ser <strong>aprovadas pela direção</strong> e seguir <strong>lore e identidade coerente</strong>. Proibido anti-RP ou ações sem planejamento.</p>
-                    <p><strong>2. Hierarquia e Disciplina:</strong> É obrigatório ter líder, sub-líder e membros, com funções específicas (logística, segurança, financeiro). O líder (O0) é <strong>responsável pela organização e disciplina dos membros</strong>, assim como na Polícia.</p>
-                    <p><strong>3. Conduta com a Polícia:</strong> É proibido <strong>desrespeitar a polícia</strong> de forma Anti-RP/OOC, mantendo o confronto dentro da interpretação e regras.</p>
-                    <p><strong>4. Recrutamento:</strong> A entrada e saída de membros deve ser <strong>RP</strong>. Ex-membros <strong>não podem vazar informações</strong> (meta-gaming).</p>
-                    <p><strong>5. Ações Ilegais:</strong> Ações devem ser planejadas e o <strong>uso obrigatório de máscaras</strong> em ações. Proibido ações exageradas ou sem sentido.</p>
-                </div>
-            `,
+"ilegal-faccoes": `
+    <div class="rule-display">
+        <h2>Facções, Hierarquia e Disciplina</h2>
+        <p><strong>1. Regras Gerais:</strong> As facções devem ser <strong>aprovadas pela direção</strong> e seguir <strong>lore e identidade coerente</strong>. Proibido anti-RP ou ações sem planejamento.</p>
+        <p><strong>2. Hierarquia e Disciplina:</strong> É obrigatório ter líder, sub-líder e membros, com funções específicas (logística, segurança, financeiro). O líder (O0) é <strong>responsável pela organização e disciplina dos membros</strong>, assim como na Polícia.</p>
+        <p><strong>3. Conduta com a Polícia:</strong> É proibido <strong>desrespeitar a polícia</strong> de forma Anti-RP/OOC, mantendo o confronto dentro da interpretação e regras.</p>
+        <p><strong>4. Recrutamento:</strong> A entrada e saída de membros deve ser <strong>RP</strong>. Ex-membros <strong>não podem vazar informações</strong> (meta-gaming).</p>
+        <p><strong>5. Ações Ilegais:</strong> Ações devem ser planejadas e o <strong>uso obrigatório de máscaras</strong> em ações. Proibido ações exageradas ou sem sentido.</p>
+        
+        <p><strong>6. Regras de Sequestro (Proporção):</strong> As ações de sequestro devem respeitar a proporção numérica para garantir o equilíbrio do RP:</p>
+        <ul style="margin-top: 0; padding-left: 20px; list-style-type: none;">
+            <li style="margin-bottom: 5px; padding-left: 0;">&bull; <strong>Sequestro de Cidadão Comum:</strong> É obrigatório ter no mínimo <strong>2 criminosos</strong> e sempre <strong>um criminoso a mais</strong> do que o número de cidadãos a serem sequestrados (Ex: 3 criminosos para 2 cidadãos).</li>
+            <li style="margin-bottom: 5px; padding-left: 0;">&bull; <strong>Sequestro de Policial:</strong> É obrigatório sempre ter <strong>um criminoso a mais</strong> do que o número de policiais. O policial alvo deve estar <strong>sozinho</strong> no momento do sequestro e ser abordado de forma que impossibilite o QRR.</li>
+        </ul>
+    </div>
+`,
             "ilegal-guerra": `
                 <div class="rule-display">
                     <h2>Guerra e Território</h2>
@@ -1084,17 +1106,33 @@
                                 <p><strong>20. Ações Pequenas:</strong> (Ex: Assalto a Lojinha, Perseguições) podem ser realizadas por qualquer policial em serviço, sem agendamento prévio.</p>
                             </div>
                         `,
-                        "policia-regras-engajamento-perseguicao": `
-                            <div class="rule-display">
-                                <h2>Regras de Ação e Abordagem</h2>
-                                <p><strong>21. Motivação para Abordagem:</strong> Toda abordagem deve ter uma motivação dentro do Roleplay clara.</p>
-                                <p><strong>22. Revista e Algemas:</strong> A revista e o uso de algemas são obrigatórios após a detenção ou imobilização.</p>
-                                <p><strong>23. Safezones (Zonas Seguras):</strong> É proibida qualquer abordagem ou ação que gere confronto dentro de áreas Safezones (Hospitais, Garagens, etc.).</p>
-                                <p><strong>24. Incursão em Facção (Mandado):</strong> Invasões a bases de facção para operação policial (incluindo pacificação e limpeza de baú) são permitidas somente com mandado judicial autorizado pelo Jurídico.</p>
-                                <p><strong>25. Perseguição para Facção (Flagrante):</strong> A Polícia pode entrar na área da facção apenas para deter o indivíduo que esteja fugindo ativamente de uma perseguição em andamento (Flagrante Delito).</p>
-                                <p><strong>26. Sequestro de Policial (QRR Máximo):</strong> O QRR Máximo (Código 7) deve ser acionado imediatamente, sendo a responsabilidade máxima de resgate atribuída à CAVE (Comando de Ações Violentas Especiais).</p>
-                            </div>
-                        `,
+"policia-regras-engajamento-perseguicao": `
+    <div class="rule-display">
+        <h2>Regras de Ação e Abordagem</h2>
+        <p><strong>21. Motivação para Abordagem:</strong> Toda abordagem deve ter uma motivação dentro do Roleplay clara.</p>
+        <p><strong>22. Revista e Algemas:</strong> A revista e o uso de algemas são obrigatórios após a detenção ou imobilização.</p>
+        <p><strong>23. Safezones (Zonas Seguras):</strong> É proibida qualquer abordagem ou ação que gere confronto dentro de áreas Safezones (Hospitais, Garagens, etc.).</p>
+        <p><strong>24. Incursão em Facção (Mandado):</strong> Invasões a bases de facção para operação policial (incluindo pacificação e limpeza de baú) são permitidas somente com mandado judicial autorizado pelo Jurídico.</p>
+        
+        <p style="margin-bottom: 5px;"><strong>25. Perseguição para Facção (Flagrante Delito) e Protocolo de Intervenção CAVE:</strong></p>
+        <ol style="margin-top: 0; margin-bottom: 10px; padding-left: 30px;">
+            <li style="margin-bottom: 5px;">
+                <strong>Negociação Obrigatória (Guarnição em Flagrante):</strong> Em caso de perseguição ativa (Flagrante Delito), a guarnição policial em serviço pode adentrar a área da facção apenas para deter o indivíduo em fuga. <strong>Antes da entrada forçada, o policial no comando da perseguição deve tentar negociar com o líder ou membro ativo da facção para que o suspeito seja entregue pacificamente à autoridade.</strong>
+            </li>
+            <li style="margin-bottom: 5px;">
+                <strong>Acionamento CAVE (Opção Tática):</strong> Se a negociação for recusada, ou se a facção impedir ativamente a detenção do suspeito, o policial no comando pode solicitar, via rádio, o acionamento da <strong>CAVE (Comando de Ações Violentas Especiais)</strong> para iniciar uma <strong>Operação Tática de Intervenção</strong>.
+            </li>
+            <li style="margin-bottom: 5px;">
+                <strong>Limite de Tempo para a Operação:</strong> Após a entrada da primeira unidade CAVE na área da facção (início da intervenção), o tempo limite para a operação de captura é de <strong>1 hora (60 minutos da vida real)</strong>.
+            </li>
+            <li style="margin-bottom: 5px;">
+                <strong>Recuo Obrigatório (Se o Tempo Expirar):</strong> Se o indivíduo em Flagrante Delito <strong>não for detido</strong> dentro do prazo de <strong>1 hora (tempo real)</strong>, todas as unidades policiais presentes na operação (incluindo a CAVE) devem <strong>recuar imediatamente</strong> e se retirar da área da facção, encerrando a operação. O suspeito estará livre de prisão por essa ocorrência específica (devido ao esgotamento do tempo limite tático).
+            </li>
+        </ol>
+        
+        <p><strong>26. Sequestro de Policial (QRR Máximo):</strong> O QRR Máximo (Código 7) deve ser acionado imediatamente, sendo a responsabilidade máxima de resgate atribuída à CAVE (Comando de Ações Violentas Especiais).</p>
+    </div>
+`,
                         "policia-uso-forca-veiculos": `
                             <div class="rule-display">
                                 <h2>Uso da Força e Veículos</h2>
